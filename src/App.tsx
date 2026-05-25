@@ -32,6 +32,8 @@ function App() {
 
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/reset-password" element={<ResetPass />} />
+          <Route path="/reset" element={<ConfirmReset />} />
 
           <Route
             path="/"
