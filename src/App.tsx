@@ -9,7 +9,8 @@ import AuthorizedEmails from "./pages/AuthorizedEmails";
 import Profile from "./pages/Profile";
 import Layout from "./components/Layout";
 import Users from "./pages/Users";
-
+import ResetPass from "./pages/ResetPass";
+import ConfirmReset from "./pages/ConfirmReset";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
 
         <Routes>
           <Route path="/login" element={<Login />} />
-
+          <Route path="/reset-password" element={<ResetPass />} />
+          <Route path="/reset" element={<ConfirmReset />} />
           <Route
             path="/"
             element={
