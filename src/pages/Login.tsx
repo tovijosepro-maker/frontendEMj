@@ -128,9 +128,9 @@ function Login() {
             contáctame aquí
           </a>
         </div>
-        /*<div className="resetLink">
-          <a href="/reset-password">¿Olvidaste tu contraseña?</a>
-        </div>*/
+       {/*<div className="resetLink">
+  <a href="/reset-password">¿Olvidaste tu contraseña?</a>
+</div>*/}
       </div>
     </div>
   );
